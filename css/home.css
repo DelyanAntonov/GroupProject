@@ -1,0 +1,92 @@
+body, html{
+background-color: #EEF;
+height: 100%;
+}
+
+.page{
+padding: 1em 0;
+width:800px;
+margin: 0 auto;
+min-width: 400px;
+overflow:hidden;
+}
+
+.wrapper{
+margin:1em 0;
+padding: 1em;
+}
+
+.header{
+position:relative;
+height:200px;
+margin:0;
+padding: 1em;
+background-image: url(..//img/header-bg.jpg);
+background-size:100%;
+background-repeat: no-repeat;
+background-position: right -15% top 55%;
+}
+
+.icon{
+position: absolute right -15% top 55%;
+overflow:hidden;
+width: 150px;
+height:150px;
+}
+
+.navigation{
+clear:both;
+}
+
+.content{
+background-color: #F0F;
+}
+
+.inner{
+ overflow-y: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.left{
+background-color: #F00;
+height:500px;
+width: 25%;
+float:left;
+}
+
+.right{
+overflow-y: auto;
+background-color: #EFF;
+width: 75%;
+height: 100%;
+position: absolute;
+right: 0;
+float: left;
+}
+
+.news{
+position: relative;
+width: 100%;
+overflow:hidden;
+margin: 1em 0;
+}
+
+.news img{
+width:50%;
+height:auto;
+display:block;
+float: right;
+}
+
+.news p{
+height: 100%;
+position: absolute;
+left: 0;
+width:50%;
+}
+
+.footer{
+background-color: #0EF;
+width:100%;
+}
