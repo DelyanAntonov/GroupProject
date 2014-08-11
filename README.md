@@ -1,4 +1,4 @@
 GroupProject
 ============
 
-HTML&amp;CSS Group Project ssignment
+HTML&amp;CSS Group Project assignment
