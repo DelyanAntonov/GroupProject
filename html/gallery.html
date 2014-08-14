@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Group Project - Gallery</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+	<link rel="canonical" href="http://yourdomain.com/">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="..//css/typography.css" type="text/css">
+	<link rel="stylesheet" href="..//css/gallery.css" type="text/css">
+	<link rel="stylesheet" href="..//css/navigation.css" type="text/css">
+	
+	 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var defaultMessage = "     * Leave a comment here *";
+                $("textarea").focus(function(){
+                    if( $(this).val() == defaultMessage){
+                        $(this).val("");
+                    }
+                }).blur(function(){
+                    if( $(this).val() == "" ){
+                        $(this).val(defaultMessage);
+                    }
+                }).val(defaultMessage);
+            });
+        </script>
+	
+
+</head>
+<body> 
+	<div class="page">
+		<div class="header">
+			<div class="icon">
+				<img src="..//img/icon.jpg">										
+			</div>			
+		
+			<div class="navigation">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="tips.html">Tips</a></li>
+					</ul>
+				</nav>	
+			</div>
+		</div>			
+		<div class="clearfix"></div>
+		
+		<div class="content">						
+			<div class = "photos">
+				<div class = "wrapper">				
+						<a href="http://animalsadda.com/wp-content/uploads/2013/12/Basset-Hound.jpg"><img alt="" src="http://animalsadda.com/wp-content/uploads/2013/12/Basset-Hound.jpg"></a></li>
+						<a href="http://images.nationalgeographic.com/wpf/media-live/photos/000/346/cache/basset-hound-howard_34698_990x742.jpg"><img alt="" src="http://images.nationalgeographic.com/wpf/media-live/photos/000/346/cache/basset-hound-howard_34698_990x742.jpg"></a></li>
+						<a href="http://www.perrospedia.com/wp-content/uploads/2013/05/Basset-Hound-9.jpg"><img alt="" src="http://www.perrospedia.com/wp-content/uploads/2013/05/Basset-Hound-9.jpg"></a></li>
+						<a href="http://www.pets4homes.co.uk/images/articles/1012/large/basset-hound-health-considerations-520e469013742.jpg"><img alt="" src="http://www.pets4homes.co.uk/images/articles/1012/large/basset-hound-health-considerations-520e469013742.jpg"></a></li>
+						<a href="http://a-z-animals.com/media/animals/images/original/basset_hound.jpg"><img alt="" src="http://a-z-animals.com/media/animals/images/original/basset_hound.jpg"></a></li>
+						<a href="http://dogbreedsinfo.org/images/Basset_Houng_Puppy.jpg"><img alt="" src="http://dogbreedsinfo.org/images/Basset_Houng_Puppy.jpg"></a></li>
+						<a href="http://www.dogbreedinfo.com/images20/BassetHoundBellaBooGalloway9Months.JPG"><img alt="" src="http://www.dogbreedinfo.com/images20/BassetHoundBellaBooGalloway9Months.JPG"></a></li>
+						<a href="http://bassetthounds.files.wordpress.com/2011/03/basset-hound1.jpg"><img alt="" src="http://bassetthounds.files.wordpress.com/2011/03/basset-hound1.jpg"></a></li>																
+				</div>
+			</div>
+				
+			<div class="com">
+				<div class= "wrapper">
+					<form action="#" method="post" >
+						<div class="left">
+							<p class="input">
+								<label  for="register-username">Username:</label>
+								<input type="text" name="register-username" id="register-username" required="required">
+							</p>
+							<p class="input">
+								<label class="comlabel" for="register-email">Email: </label>
+								<input type="email" name="register-email" id="register-email" required="required">
+							</p>					
+						</div>
+						<div class="right">
+							<div class="commassage">
+						
+								<p >
+									<textarea   name="textarea" id="textarea"></textarea>
+								</p>	
+						
+							</div>
+
+						</div>
+						<div class="button">
+							<input type="reset" value="Submit" class="button">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>	
+		
+		<footer class="footer"> 
+				<div class="wrapper">					
+					<p>Property of D&Y &copy All rights reserved.</p>
+				</div>
+		</footer>
+	</div>		
+</body>
+</html>	
+
