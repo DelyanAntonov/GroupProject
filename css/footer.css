@@ -1,0 +1,22 @@
+
+.footer{
+	clear:both;
+	margin-top: 1em;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: #6E0F0F;
+	width:100%;
+}
+
+	.footer>.wrapper{
+		color: #FFF;
+		border: 2px solid white;
+		border-radius: 10px;
+		margin: 1em auto;
+		width: 90%;
+		background-color: #C40000;
+	}
+	
+	.footer img{
+		float: right;
+	}

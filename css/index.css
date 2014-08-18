@@ -1,0 +1,52 @@
+
+.header {
+	background-image: url(..//img/home-header.jpg);
+}
+
+.links ul{
+	padding:0;
+}
+
+	.links ul li {
+		border-radius: 10px;
+		text-align:center;
+		width:70%;
+		margin: 0.5em auto;
+		padding: 0.5em;
+		list-style: none outside;
+	}
+
+	.links ul li:hover{
+		background: #3D0101;
+	 }
+
+.news{
+	border-radius: 10px;
+	border: 2px solid white;
+	position: relative;
+	top: 0;
+	left: 4%;
+	width: 90%;
+	overflow:hidden;
+	margin: 1em 0;
+}
+	.news .text{
+		vertical-align:middle;
+		text-align: center;
+		background-color: #C7A74E;
+		border-right: 2px solid white;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		width:50%;
+		padding: 5px;
+	}
+
+	.news img{
+		width: 250px;
+		height: 150px;
+		display:block;
+		float: right;
+	}
+
+

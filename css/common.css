@@ -1,0 +1,50 @@
+body, html{
+	background-color: #C9C3C3;
+	height: 100%;
+}
+
+	.page{
+		padding: 1em 0;
+		width:800px;
+		margin: 0 auto;
+		min-width: 400px;
+	}
+
+		.content{
+			width:100%;
+			border: 2px solid white;
+			border-radius: 10px;
+			background-color: #6E0F0F;
+		}
+
+			.wrapper{
+				margin:1em 0;
+				padding: 1em;
+			}
+
+				.inner{
+					 overflow: hidden;
+						position: relative;
+						width: 100%;
+				}
+
+					.left{
+						background-color: #C40000;
+						border: 2px solid white;
+						border-radius: 10px;
+						height:500px;
+						width: 22%;
+						float:left;
+					}
+
+					.right{
+						border: 2px solid white;
+						border-radius: 10px;
+						overflow-y: auto;
+						background-color: #C40000;
+						width: 76%;
+						height: 500px;
+						position: absolute;
+						right: 0;
+						float: left;
+					}
