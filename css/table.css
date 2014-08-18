@@ -1,0 +1,30 @@
+table {
+position: absolute;
+left:1.4%;
+width: 570px;
+margin-top: 4em;
+color: #fff; 
+border: 1px solid #ccc;
+}
+
+
+
+table tr:first-child{
+ background: #6E0F0F;
+ color: #fff;
+}
+
+table tr > td:first-child{
+background: #6E0F0F;
+color: #fff;
+}  
+
+table tr > td > tr {
+background:#C40000;
+}
+
+h3 {
+position:absolute;
+left:15%;
+top:3%;
+}
