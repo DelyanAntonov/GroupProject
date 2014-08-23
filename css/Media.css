@@ -1,0 +1,73 @@
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 768px) {
+/* Styles */
+
+
+.page{
+	width:auto;
+	margin: 0;
+}
+
+.header{
+	background-image:none;
+	border: none;
+}
+
+.icon{
+	width: 70%;
+	position: absolute;
+		top:0;
+		left:3.5%;
+}
+
+.navigation{
+	position: absolute;
+	top: 65%;
+	left: 2%;
+}
+
+
+.content{
+	position: absolute;
+	top:43%;
+	left:0%;
+	background:none;
+	border: none;
+}
+
+.inner {
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+
+.left{
+	display:none;
+}
+.right{
+	position: relative;
+	left:0;
+	top:0;
+	width: 98%;
+
+}
+
+span {
+	font-size: 0.8em;
+	font-family: justify;
+}
+
+.footer{ 
+	position: absolute; 
+	top : 165%;
+	left: 4%;
+	width: 91%;
+	background: none;
+	border: none;
+}
+
+.footer img {
+	display: none;
+}
+
