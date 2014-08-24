@@ -15,6 +15,8 @@
 		<link rel="stylesheet" href="..//css/tips.css" type="text/css">
 		<link rel="stylesheet" href="..//css/news.css" type="text/css">
 		<link rel="stylesheet" href="..//css/footer.css" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="..//js/tips.js"></script>
 	</head>
 		<body>
 		<div class="page">
@@ -40,25 +42,97 @@
 							<div class="dropdown">
 								<form action="#" method="post" class="common">
 									<label for="contry">Tips for:</label>
-										<select name="contry" id="country" onchange="window.location=this.value">
-											<option value="tips.html">Choose a group</option>
-											<option value="shoulders.html">Shoulders</option>
-											<option value="back.html">Back</option>
-											<option value="chest.html">Chest</option>
-											<option value="arms.html">Arms</option>
-											<option value="legs.html">Legs</option>
-											<option value="abs.html">Abs</option>
+										<select name="country" id="country">
+											<option value="0" selected>Choose a group</option>
+											<option value="1">Shoulders</option>
+											<option value="2">Back</option>
+											<option value="3">Chest</option>
+											<option value="4">Arms</option>
+											<option value="5">Legs</option>
+											<option value="6">Abs</option>
 										</select>
 								</form>
 							</div>
 						</div>
 						<div class="right">
-							<div class="tips">
+							<div class="tips" id="tips0">
 								<div class = "image">
 									<img src="http://dczjj.com/wp-content/uploads/2013/12/Best-Body-Building-Routine.jpg">									
+								</div>								
+							</div>	
+							
+							<div class="tips"  id="tips1">
+								<div class="news">
+									<img src="http://1.bp.blogspot.com/-G4wBvkpmrgo/UcXkOrv51cI/AAAAAAAAId8/i8USd6lgLi0/s1600/Shoulders+Workout+Chart.jpg">
 								</div>
-							</div>							
-						</div>	
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="http://www.youtube.com/embed/KWeRuB9uWNE"  allowfullscreen></iframe>
+								</div>
+							</div>
+							
+							<div class="tips"  id="tips2">
+								<div class="news">
+									<img src="http://musclefanatics.com/upload/images/large/2014/06/back_workout_2014-04-03_18-33-05.jpg">
+								</div>
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/f0bY-gp8uR8"  allowfullscreen></iframe>
+								</div>
+							</div>
+							
+							<div class="tips"  id="tips3">
+								<div class="news">
+									<img src="http://musclefanatics.com/upload/images/large/2013/12/chest_workout_program_2013-11-11_22-45-42.jpg">
+								</div>
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="http://www.youtube.com/embed/33mjoyc5JbE"  allowfullscreen></iframe>
+								</div>
+							</div>
+							
+							<div class="tips"  id="tips4">
+								<div class="news">
+									<img src="http://www.bodybuilding-motivation.org/upload/images/large/2014/03/personal_trainer_11_top_triceps_2014-02-13_23-50-54.jpg">
+								</div>
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="http://www.youtube.com/embed/Vsr1lULDE9Q"  allowfullscreen></iframe>
+								</div>
+							</div>
+							
+							<div class="tips"  id="tips5">
+								<div class="news">
+									<img src="http://upload.wikimedia.org/wikipedia/commons/1/1d/Jeune_basset-hound.jpg">
+								</div>
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="http://www.youtube.com/embed/LLwiGkywKN4"  allowfullscreen></iframe>
+								</div>
+							</div>
+							
+							<div class="tips"  id="tips6">
+								<div class="news">
+									<img src="https://lh4.googleusercontent.com/-PzgIIIjgz8E/UVHaVt5RnGI/AAAAAAAA8oA/f5PvKOxMBUQ/s1293/ab-workout.jpg">
+								</div>
+								<div class = "tip">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum varius velit, quis vehicula lectus molestie vitae. Donec commodo magna quis ligula luctus, vitae pretium tellus laoreet. Aenean at sodales metus. Duis id auctor sem. </p>
+								</div>
+								<div class ="vid">
+									<iframe width="100%" height="100%" src="http://www.youtube.com/embed/8dQkyzUdsM8"  allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>							
 					</div>
 				</div>
 			</div>	

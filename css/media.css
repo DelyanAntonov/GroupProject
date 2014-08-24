@@ -1,6 +1,6 @@
-/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 768px) {
+and (max-width : 320px) {
 /* Styles */
 
 
@@ -45,13 +45,35 @@ and (max-width : 768px) {
 .left{
 	display:none;
 }
-.right{
+.righthome{
 	position: relative;
 	left:0;
 	top:0;
 	width: 98%;
 
 }
+
+.news{
+	height: 200px;
+	
+}
+
+.news .text {
+	width: 100px;
+	
+}
+
+
+.text span{
+	width: 10px;
+}
+
+
+.news img {
+	width: 150px;
+	height: 200px;
+}
+
 
 span {
 	font-size: 0.8em;
@@ -71,3 +93,4 @@ span {
 	display: none;
 }
 
+}

@@ -13,13 +13,23 @@
 select{
 	margin-top: 1em;
 }
+.right{
+	border: 2px solid white;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #C40000;
+	width: 76%;
+	height: 500px;
+	position: absolute;
+	right: 0;
+	float: left;
+}
 
 .image{
 	height:100%;
 }
 
 .tips, .news{
-border: 2px solid white;
 border-radius: 10px;
 position: relative;
 top: 0;
@@ -50,6 +60,7 @@ height:220px;
 	height:45%;
 	float:left;
 	margin: 1em 1em 1em 1.5em;
+	overflow: auto;
 }
 
 .tip p{
