@@ -1,0 +1,117 @@
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+
+
+.page{
+	width:auto;
+	margin: 0;
+}
+
+.header{
+	background-image:none;
+	border: none;
+}
+
+.icon{
+	width: 70%;
+	position: absolute;
+		top:0;
+		left:3.5%;
+}
+
+.navigation{
+	position: absolute;
+	top: 65%;
+	left: 2%;
+}
+
+
+.content{
+	position: absolute;
+	top:35%;
+	left:0;
+	background:none;
+	border: none;
+}
+
+
+
+
+.inner {
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+
+select {
+	padding: 0;
+	
+}
+
+.left label {
+	display: none;
+}
+
+.left{
+	background: none;
+	border: none;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+	position: relative;
+		top: 0;
+		left: 27%;
+}
+
+
+
+.right{
+	position: relative;
+	left:0;
+	top:0;
+	width: 98%;
+
+}
+
+.news {
+	width: 100%;
+	margin-left: -0.5em;
+	margin-bottom: 0;
+}
+
+
+.news img {
+	width: 100%;
+}
+
+.tip {
+	display: none;
+}
+
+.vid {
+	width: 100%;
+	margin-left: -0.2em;
+	margin-bottom: 1em;
+
+}
+
+
+
+
+
+.footer{ 
+	position: absolute; 
+	top : 170%;
+	left: 4%;
+	width: 91%;
+	background: none;
+	border: none;
+}
+
+.footer img {
+	display: none;
+}
+
+}
